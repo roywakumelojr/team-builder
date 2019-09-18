@@ -1,6 +1,6 @@
 # Module Project: Forms - Team Builder
 
-This project allows you to practice the concepts and techniques learned in this module and apply them in a concrete project. This module explored Form management in React. You learned about controled inputs, semantic HTML, some ES6 tools like the spread operator and computer properties, and synthetic events. In your project you will demonstrate proficiency of these subjects and principles by creating an application using each of these.
+This project allows you to practice the concepts and techniques learned in this module and apply them in a concrete project. This module explored Form management in React. You learned about controlled inputs, semantic HTML, some ES6 tools like the spread operator and computer properties, and synthetic events. In your project you will demonstrate proficiency of these subjects and principles by creating an application using each of these.
 
 ## Instructions
 
@@ -35,8 +35,8 @@ Follow these steps for completing your project.
 
 ## Minimum Viable Product
 
-- [ ] Render a list of team members from state
-- [ ] Build a form to add a new member to the list of members
+- [X] Render a list of team members from state
+- [X] Build a form to add a new member to the list of members
 
 ### STEP 1 - Setup your state
 
