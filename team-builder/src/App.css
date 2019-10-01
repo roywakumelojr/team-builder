@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+.App {
+  text-align: center;
+  font-family: 'Open Sans';
+  background-size: cover;
+  background-image: url("https://images.unsplash.com/photo-1419332552192-47d29e59b1e0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1953&q=80");
+  background-color: #191919;
+  padding: 32px;
+  letter-spacing: 2px
+}
+
+html, body, .App, #root {
+  min-height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2 {
+  margin: 0;
+  color: white;
+}
+
+h2 {
+  background-image: url("https://images.unsplash.com/photo-1560288847-b47d5bee48e1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=631&q=80");
+  background-size: cover;
+  padding: 5px 0;
+}
+
+p {
+  color: white;
+  margin: 0;
+}
+
+.team-members {
+  padding-bottom: 20px;
+}
+
+.member-list {
+  display: flex;
+  padding-top: 20px;
+  flex-wrap: wrap;
+}
+
+.member {
+  background: black;
+  opacity: 0.8;
+  border: 1px solid white;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px black;
+  width: 100%;
+  max-width: 400px;
+  padding: 15px 0;
+  margin: 16px auto;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  padding-bottom: 40px;
+}
+
+input {
+  width: 300px;
+  opacity: 0.7;
+  padding: 10px 22px;
+  margin: 10px 5px;
+  box-sizing: border-box;  
+  border-radius: 4px;
+}
+
+button {
+  background: red;
+  padding: 10px 60px;
+  opacity: 0.7;
+  font-size: 14px;
+  border-radius: 5px;
+  color: white;
+  transition: all 0.2 ease-in;
+}
+
+button:hover {
+  transform: translateY(-1px);
+  opacity: 0.7;
+  background: Green;
+}
+
+label {
+  margin-bottom: -12px;
+  text-align: left;
+  color: white;
+  width: 300px;
+}
+
+.member-edit {
+  display: flex;
+  padding-left: 30px;
+  margin-top: 20px;
+  justify-content: left;
+  background-color: orange; 
+  width: 100px;
+}
+
+.delete-member {
+  display: flex;
+  padding-left: 30px;
+  margin-top: 5px;
+  justify-content: left;
+  background-color: red; 
+  width: 100px;
+}
